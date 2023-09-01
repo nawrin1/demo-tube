@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phero tube</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <header class=" container w-full px-10">
+        <div class="navbar bg-base-100 flex flex-col md:flex-row lg:flex-row justify-between mb-[30px] mt-[30px]">
+            <div class="">
+                <img src="./Logo.png" alt="">
+            </div>
+            <div class="w-auto bg-[rgba(37, 37, 37, 0.20)] rounded-[4px] text-black md:mr-[110px] lg:mr-[110px] lg:px-4 py-3">
+                <button id="sortby" class="bg-[#d3d1d1] text-[18px] font-normal px-4 py-3 rounded-[4px]">
+                    Sort By View
+                </button>
+
+            </div>
+            <div class="">
+              <button onclick="blogs()" class="  bg-[#FF1F3D] w-auto rounded-[4px] font-[500] text-white px-4 py-3">
+                  Blog
+              </button>
+            </div>
+        </div>
+        <hr class="h-[1.5px] w-[100%] bg-[#3f3a3a] mx-auto mb-[30px]">
+        <div id="tabs" class="flex justify-center gap-5">
+             
+
+        </div>
+
+
+    </header>
+    <main>
+        <section id="main_section1" class="lg:px-4">
+            <div id="main_container" class=" justify-items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 p-10 mx-auto ">
+
+            </div>
+        </section>
+        <section id="main_section"class="lg:px-4" >
+            <div id="main_container2" class=" justify-items-center grid grid-cols-1 p-4 mx-auto">
+
+            </div>
+
+        </section>
+
+    </main>
+    <script src="js/api.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    
+
+    <style>
+        h1{
+            color:blue;
+            
+        }
+
+        p{
+            font-size: 20px;
+        }
+
+        main{
+            margin:auto;
+            padding: 10px 20px 0 20px;
+            display:flex;
+            flex-direction: column;
+            row-gap: 80px;
+            justify-content: center;
+            align-items: center;
+        }
+        div{
+            background-color: rgb(199, 192, 192);
+            border-radius: 10px;
+            width:85%;
+            padding:10px 10px 10px 10px;
+            
+        }
+        
+
+    </style>
+</head>
+<body>
+    <main class="flex flex-col gap-15">
+        <div>
+            <h1>Discuss the scope of var, let and constant</h1>
+            <p><span>Var:</span>The scope of var is functional scope. Even if it is declared within a block we can access the var variable from outside the scope as well. Var can be updated and re-declared into the scope.</p>
+            <p><span>Let:</span>The scope of let is block scope. Besides, it can be declared without initializing it but the value cannot be accessed. Let can be updated but cannot be re-declared into the scope</p>
+            <p><span>Constant:</span>The scope of constant is block scope. Besides, if it is declared in a block it can only be accessed within the block not outside. Constant cannot be updated or re-declared into the scope.</p>
+
+        </div>
+
+        <div>
+            <h1>Use cases of null and undefined</h1>
+            <p>Null means a blank value. The value is present and it can be accessed but it is empty. On the other hand,undefined means the value which is not defined that is the variable is declared but no value is assigned to it.. The type of undefined is undefined but the type of null is an object</p>
+
+        </div>
+        <div>
+            <h1>
+                What do you mean by REST API?
+            </h1>
+            <p>REST API is a way of accessing web services in a simple way without having the hassle of any processing. If a request is made by a client to the server then using REST API the request will be represented and a response will be sent to the client.</p>
+        
+    </main>
+    
+</body>
+</html>
